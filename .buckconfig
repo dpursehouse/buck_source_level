@@ -1,0 +1,11 @@
+[java]
+  src_roots = java, resources
+  source_level = 7
+  target_level = 7
+
+[project]
+  ignore = .git
+
+[cache]
+  mode = dir
+  dir = buck-out/cache
